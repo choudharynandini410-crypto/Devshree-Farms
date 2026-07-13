@@ -1,0 +1,22 @@
+:root{
+
+    /* Brand Colors */
+    --primary:#2E6B3D;
+    --primary-dark:#1F4E2B;
+    --gold:#D4AF37;
+
+    --cream:#FFF8EE;
+    --white:#FFFFFF;
+    --black:#222222;
+    --gray:#666666;
+
+    /* Shadows */
+    --shadow:0 20px 50px rgba(0,0,0,.08);
+
+    /* Radius */
+    --radius:20px;
+
+    /* Transition */
+    --transition:.35s ease;
+
+}

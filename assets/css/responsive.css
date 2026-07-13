@@ -1,0 +1,140 @@
+@media(max-width:992px){
+
+.hero{
+
+flex-direction:column-reverse;
+text-align:center;
+
+}
+
+.description{
+
+margin:auto;
+margin-bottom:35px;
+
+}
+
+.hero-buttons{
+
+justify-content:center;
+
+}
+
+.nav-links{
+
+display:none;
+
+}
+
+}
+/* ===========================
+   TABLET (992px)
+=========================== */
+
+@media (max-width:992px){
+
+.hero{
+    grid-template-columns:1fr;
+    text-align:center;
+    gap:50px;
+}
+
+.hero-buttons{
+    justify-content:center;
+}
+
+.nav-links{
+    gap:25px;
+}
+
+.about{
+    grid-template-columns:1fr;
+}
+
+.journey-container{
+    flex-direction:column;
+    align-items:center;
+}
+
+.journey-line{
+    width:4px;
+    height:60px;
+}
+
+}
+
+/* ===========================
+   MOBILE (768px)
+=========================== */
+
+@media (max-width:768px){
+
+.navbar{
+    padding:18px;
+}
+
+.logo{
+    font-size:28px;
+}
+
+.nav-links{
+    display:none;
+}
+
+.hero h1{
+    font-size:42px;
+}
+
+.hero h2{
+    font-size:24px;
+}
+
+.description{
+    font-size:16px;
+}
+
+.hero-buttons{
+    flex-direction:column;
+}
+
+.section-heading h2{
+    font-size:36px;
+}
+
+.product-grid,
+.features-grid,
+.footer-container{
+    grid-template-columns:1fr;
+}
+
+.about-content h2{
+    font-size:36px;
+}
+
+}
+
+/* ===========================
+   SMALL MOBILE
+=========================== */
+
+@media (max-width:480px){
+
+.hero{
+    padding:80px 20px;
+}
+
+.hero h1{
+    font-size:34px;
+}
+
+.btn-primary,
+.btn-secondary{
+    width:100%;
+    text-align:center;
+}
+
+.section-heading h2{
+    font-size:30px;
+}
+
+}

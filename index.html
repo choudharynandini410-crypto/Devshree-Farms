@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Devshree Farms | From Our Farm To Your Family</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<!-- CSS -->
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" type="image/png" href="assets/images/logo.png">
+
+<title>Devshree Farms | Fresh Dairy Products</title>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description"
+content="Devshree Farms provides Pure Bilona Ghee, Fresh Cow Milk and Natural Dairy Products directly from the farm.">
+
+<meta name="keywords"
+content="Bilona Ghee, Cow Milk, Dairy, Organic Milk, Devshree Farms">
+
+<meta name="author"
+content="Devshree Farms">
+
+<meta name="theme-color"
+content="#1F4E2B">
+</head>
+
+<body>
+<div id="progress-bar"></div>
+<!-- ==========================
+        HEADER
+========================== -->
+
+<header>
+
+<nav class="navbar">
+
+<a href="#" class="logo">
+
+DEVSHREE
+<span>FARMS</span>
+
+</a>
+
+<ul class="nav-links">
+
+<li><a href="#">Home</a></li>
+<li><a href="#products">Products</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Contact</a></li>
+<li><a href="#faq">FAQ</a></li>
+
+</ul>
+<div class="menu-toggle" id="menu-toggle">
+    <i class="fas fa-bars"></i>
+</div>
+
+<div class="nav-icons">
+
+    <a href="cart.html" class="cart-icon">
+
+    <i class="fas fa-shopping-cart"></i>
+
+    <span id="cart-count">0</span>
+
+    </a>
+
+</div>
+
+</nav>
+
+</header>
+
+<!-- ==========================
+        HERO
+========================== -->
+
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<span class="tag">
+🌿 100% Pure & Natural Dairy
+</span>
+
+<h1>
+
+From Our Farm
+To Your Family
+
+</h1>
+
+<p>
+
+Experience the richness of authentic dairy crafted with love.
+Fresh Milk, Bilona Ghee, Paneer, Dahi, Lassi & Masala Chaach delivered with purity.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#products" class="btn btn-primary">
+
+Shop Now
+
+</a>
+
+<a href="#products" class="btn btn-secondary">
+
+Explore Products
+
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-image">
+
+<img src="assets/images/ghee.jpg" alt="Devshree Farms">
+
+</div>
+
+</section>
+
+<!-- Products section will come next -->
+ <section class="products reveal" id="products">
+
+    <div class="section-heading">
+
+        <span>OUR PRODUCTS</span>
+
+        <h2>Fresh Dairy Collection</h2>
+
+        <p>
+            Carefully prepared using traditional methods with freshness and purity in every product.
+        </p>
+
+    </div>
+    <div class="products-toolbar">
+
+    <select id="sortProducts">
+
+        <option value="default">Sort By</option>
+        <option value="low">Price: Low to High</option>
+        <option value="high">Price: High to Low</option>
+        <option value="name">Name (A-Z)</option>
+
+    </select>
+
+</div>
+    <div class="search-box">
+
+    <i class="fas fa-search"></i>
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search products...">
+
+</div>
+
+    <div class="products-grid">
+
+        <!-- Product 1 -->
+
+        <div class="product-card">
+
+            <span class="badge">Best Seller</span>
+
+            <i class="fa-regular fa-heart wishlist"></i>
+
+            <img src="assets/images/ghee.jpg" alt="Ghee">
+
+            <div class="stars">
+                ⭐⭐⭐⭐⭐
+            </div>
+
+            <h3>Pure Bilona Ghee</h3>
+
+            <h4>₹1099 <span>/ Litre</span></h4>
+
+            <p>
+                Handmade using the traditional Bilona method from fresh cow milk.
+            </p><div class="quantity-box">
+
+    <button class="minus">−</button>
+
+    <span class="qty">1</span>
+
+    <button class="plus">+</button>
+
+</div>
+
+            <button
+    class="product-btn"
+    data-id="1"
+    data-name="Pure Bilona Ghee"
+    data-price="1099">
+    Add To Cart
+</button>
+<button
+class="buy-btn"
+data-id="1"
+data-name="Pure Bilona Ghee"
+data-price="1099">
+Buy Now
+</button>
+
+        </div>
+
+        <!-- Product 2 -->
+
+        <div class="product-card">
+
+            <span class="badge new">Fresh</span>
+
+            <i class="fa-regular fa-heart wishlist"></i>
+
+            <img src="assets/images/milk.jpg" alt="Milk">
+
+            <div class="stars">
+                ⭐⭐⭐⭐⭐
+            </div>
+
+            <h3>Fresh Cow Milk</h3>
+
+            <h4>₹70 <span>/Litre</span></h4>
+
+            <p>
+                Freshly collected every morning and delivered directly from our farm.
+            </p>
+            <div class="quantity-box">
+
+    <button class="minus">−</button>
+
+    <span class="qty">1</span>
+
+    <button class="plus">+</button>
+
+</div>
+
+         <button
+    class="product-btn"
+    data-id="2"
+    data-name="Fresh Cow Milk"
+    data-price="70">
+    Add To Cart
+</button>
+<button
+class="buy-btn"
+data-id="2"
+data-name="Fresh Cow Milk"
+data-price="70">
+Buy Now
+</button>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ===========================
+        WHY CHOOSE US
+=========================== -->
+
+<section class="features reveal" id="features">
+
+    <div class="section-heading">
+
+        <span>WHY CHOOSE US</span>
+
+        <h2>Freshness You Can Trust</h2>
+
+        <p>
+            Every product is prepared with care using traditional methods and delivered fresh from our farm.
+        </p>
+
+    </div>
+
+    <div class="features-grid">
+
+        <div class="feature-card">
+
+            <i class="fas fa-cow"></i>
+
+            <h3>Farm Fresh</h3>
+
+            <p>
+                Milk collected fresh every morning directly from our healthy cows.
+            </p>
+
+        </div>
+
+        <div class="feature-card">
+
+            <i class="fas fa-leaf"></i>
+
+            <h3>100% Natural</h3>
+
+            <p>
+                No preservatives, no chemicals—only pure and authentic dairy.
+            </p>
+
+        </div>
+
+        <div class="feature-card">
+
+            <i class="fas fa-truck-fast"></i>
+
+            <h3>Fast Delivery</h3>
+
+            <p>
+                Fresh products delivered to your doorstep with care.
+            </p>
+
+        </div>
+
+        <div class="feature-card">
+
+            <i class="fas fa-award"></i>
+
+            <h3>Premium Quality</h3>
+
+            <p>
+                Traditional Bilona method ensures unmatched taste and nutrition.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="testimonials reveal" id="testimonials">
+
+    <div class="section-heading">
+        <span>HAPPY CUSTOMERS</span>
+        <h2>What Our Customers Say</h2>
+    </div>
+
+    <div class="testimonial-slider">
+
+        <div class="testimonial active">
+
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+
+            <p>
+                "The Bilona Ghee tastes exactly like homemade.
+                My family loved it."
+            </p>
+
+            <h4>— Priya Sharma</h4>
+
+        </div>
+
+        <div class="testimonial">
+
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+
+            <p>
+                "Fresh milk every morning.
+                Amazing quality and service."
+            </p>
+
+            <h4>— Rahul Verma</h4>
+
+        </div>
+
+        <div class="testimonial">
+
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+
+            <p>
+                "Best paneer and chaach in our city.
+                Will order again."
+            </p>
+
+            <h4>— Anjali Singh</h4>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ===========================
+        FARM STORY
+=========================== -->
+
+<section class="farm-story reveal">
+
+    <div class="farm-image">
+
+        <img src="assets/images/farm.jpg" alt="Devshree Farms">
+
+    </div>
+
+    <div class="farm-content">
+
+        <span>OUR STORY</span>
+
+        <h2>Rooted In Tradition, Crafted With Love</h2>
+
+        <p>
+            At <strong>Devshree Farms</strong>, we believe that pure dairy begins with healthy cows, clean farms, and traditional practices. Every drop of milk and every spoon of Bilona Ghee is prepared with care, ensuring freshness, purity, and authentic taste.
+        </p>
+
+        <div class="farm-points">
+
+            <div>✅ Healthy Grass-fed Cows</div>
+
+            <div>✅ Traditional Bilona Method</div>
+
+            <div>✅ No Preservatives</div>
+
+            <div>✅ Fresh Daily Production</div>
+
+        </div>
+
+        <a href="shop.html" class="btn btn-primary">
+            Shop Now
+        </a>
+
+    </div>
+
+</section>
+<section class="testimonials reveal">
+
+    <div class="section-heading">
+
+        <span>TESTIMONIALS</span>
+
+        <h2>What Our Customers Say</h2>
+
+    </div>
+
+    <div class="testimonial-grid">
+
+        <div class="testimonial-card">
+
+            <img src="assets/images/user1.jpg" alt="Customer">
+
+            <h3>Priya Sharma</h3>
+
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+
+            <p>
+                "The Bilona Ghee tastes exactly like homemade ghee. My family loved it!"
+            </p>
+
+        </div>
+
+        <div class="testimonial-card">
+
+            <img src="assets/images/user2.jpg" alt="Customer">
+
+            <h3>Rahul Verma</h3>
+
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+
+            <p>
+                "Fresh milk delivered every morning. Highly recommended!"
+            </p>
+
+        </div>
+
+        <div class="testimonial-card">
+
+            <img src="assets/images/user3.jpg" alt="Customer">
+
+            <h3>Anjali Gupta</h3>
+
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+
+            <p>
+                "Paneer and dahi are always fresh. Excellent quality."
+            </p>
+
+        </div>
+
+    </div>
+
+</section><!-- ==========================
+     WHY CHOOSE US
+========================== -->
+
+<section class="features reveal">
+
+    <div class="section-heading">
+
+        <span>WHY CHOOSE US</span>
+
+        <h2>Freshness You Can Trust</h2>
+
+        <p>
+            We deliver farm-fresh dairy products prepared using traditional methods
+            with purity, quality, and love.
+        </p>
+
+    </div>
+
+    <div class="features-grid">
+
+        <div class="feature-card">
+
+            <i class="fas fa-cow"></i>
+
+            <h3>Healthy Cows</h3>
+
+            <p>
+                Our cows are naturally raised with nutritious feed and proper care.
+            </p>
+
+        </div>
+
+        <div class="feature-card">
+
+            <i class="fas fa-glass-water"></i>
+
+            <h3>Fresh Milk</h3>
+
+            <p>
+                Fresh milk collected daily without preservatives.
+            </p>
+
+        </div>
+
+        <div class="feature-card">
+
+            <i class="fas fa-seedling"></i>
+
+            <h3>Traditional Bilona</h3>
+
+            <p>
+                Authentic Bilona method for rich aroma and nutrition.
+            </p>
+
+        </div>
+
+        <div class="feature-card">
+
+            <i class="fas fa-truck-fast"></i>
+
+            <h3>Fast Delivery</h3>
+
+            <p>
+                Delivered directly from our farm to your doorstep.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ==========================
+     FARM JOURNEY
+========================== -->
+
+<section class="journey reveal" id="journey">
+
+    <div class="section-heading">
+
+        <span>OUR PROCESS</span>
+
+        <h2>From Farm to Your Home</h2>
+
+        <p>
+            Every product goes through a careful traditional process to ensure purity and freshness.
+        </p>
+
+    </div>
+
+    <div class="journey-container">
+
+        <div class="journey-step">
+
+            <div class="journey-icon">
+                <i class="fas fa-cow"></i>
+            </div>
+
+            <h3>Healthy Cows</h3>
+
+            <p>
+                Our cows are naturally raised with love, hygiene and nutritious feed.
+            </p>
+
+        </div>
+
+        <div class="journey-line"></div>
+
+        <div class="journey-step">
+
+            <div class="journey-icon">
+                <i class="fas fa-glass-water"></i>
+            </div>
+
+            <h3>Fresh Milk</h3>
+
+            <p>
+                Milk is collected every morning without preservatives.
+            </p>
+
+        </div>
+
+        <div class="journey-line"></div>
+
+        <div class="journey-step">
+
+            <div class="journey-icon">
+                <i class="fas fa-bowl-food"></i>
+            </div>
+
+            <h3>Bilona Method</h3>
+
+            <p>
+                Prepared traditionally to preserve nutrition and authentic taste.
+            </p>
+
+        </div>
+
+        <div class="journey-line"></div>
+
+        <div class="journey-step">
+
+            <div class="journey-icon">
+                <i class="fas fa-truck-fast"></i>
+            </div>
+
+            <h3>Delivered Fresh</h3>
+
+            <p>
+                Carefully packed and delivered straight from our farm.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ==========================
+        ABOUT US
+========================== -->
+
+<section class="about reveal" id="about">
+
+    <div class="about-image">
+
+        <img src="assets/images/farm.jpg" alt="Devshree Farms">
+
+    </div>
+
+    <div class="about-content">
+
+        <span>ABOUT DEVSHREE FARMS</span>
+
+        <h2>Pure Dairy, Straight From Our Farm</h2>
+
+        <p>
+            At Devshree Farms, we are committed to delivering fresh,
+            healthy and traditional dairy products made with love.
+            Every product is prepared using authentic methods that
+            preserve nutrition, purity and taste.
+        </p>
+
+        <div class="about-list">
+
+            <div>✅ 100% Natural Products</div>
+
+            <div>✅ Traditional Bilona Method</div>
+
+            <div>✅ Fresh Everyday</div>
+
+            <div>✅ Direct Farm Delivery</div>
+
+        </div>
+
+        <a href="#products" class="btn-primary">
+            Explore Products
+        </a>
+
+    </div>
+
+</section>
+<!-- ==========================
+        FAQ
+========================== -->
+
+<section class="faq reveal" id="faq">
+
+    <div class="section-heading">
+
+        <span>FAQ</span>
+
+        <h2>Frequently Asked Questions</h2>
+
+    </div>
+
+    <div class="faq-container">
+
+        <div class="faq-item">
+
+            <div class="faq-question">
+
+                Is your Bilona Ghee 100% Pure?
+
+                <span>+</span>
+
+            </div>
+
+            <div class="faq-answer">
+
+                Yes. Our Bilona Ghee is prepared using the traditional Bilona method from fresh cow milk without any preservatives.
+
+            </div>
+
+        </div>
+
+        <div class="faq-item">
+
+            <div class="faq-question">
+
+                Do you provide home delivery?
+
+                <span>+</span>
+
+            </div>
+
+            <div class="faq-answer">
+
+                Yes, we provide fresh doorstep delivery in selected areas.
+
+            </div>
+
+        </div>
+
+        <div class="faq-item">
+
+            <div class="faq-question">
+
+                How should I store dairy products?
+
+                <span>+</span>
+
+            </div>
+
+            <div class="faq-answer">
+
+                Store milk, paneer and dahi in the refrigerator. Ghee can be kept in a cool and dry place.
+
+            </div>
+
+        </div>
+
+        <div class="faq-item">
+
+            <div class="faq-question">
+
+                Do you accept Cash on Delivery?
+
+                <span>+</span>
+
+            </div>
+
+            <div class="faq-answer">
+
+                Yes, Cash on Delivery is available in eligible locations.
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ==========================
+        FOOTER
+========================== -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- Company -->
+
+        <div class="footer-box">
+
+            <h2>Devshree <span>Farms</span></h2>
+
+            <p>
+                Bringing farm fresh dairy products directly to your home with purity, quality and traditional Bilona methods.
+            </p>
+
+            <div class="social-icons">
+
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                <a href="#"><i class="fab fa-instagram"></i></a>
+
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+
+                <a href="#"><i class="fab fa-youtube"></i></a>
+
+            </div>
+
+        </div>
+
+        <!-- Quick Links -->
+
+        <div class="footer-box">
+
+            <h3>Quick Links</h3>
+
+            <a href="#">Home</a>
+
+            <a href="#products">Products</a>
+
+            <a href="#about">About</a>
+
+            <a href="#contact">Contact</a>
+
+        </div>
+
+        <!-- Products -->
+
+        <div class="footer-box">
+
+            <h3>Our Products</h3>
+
+            <a href="#">Bilona Ghee</a>
+
+            <a href="#">Fresh Milk</a>
+
+            <a href="#">Paneer</a>
+
+            <a href="#">Dahi</a>
+
+            <a href="#">Masala Chaach</a>
+
+        </div>
+
+        <!-- Contact -->
+
+        <div class="footer-box">
+
+            <h3>Contact Us</h3>
+
+            <p><i class="fas fa-phone"></i> +91 9627370088</p>
+
+            <p><i class="fas fa-envelope"></i> info@devshreefarms.com</p>
+
+            <p><i class="fas fa-location-dot"></i> Saharanpur, Uttar Pradesh</p>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Devshree Farms | Made with ❤️ in India
+        </p>
+
+    </div>
+
+</footer>
+
+<a
+href="https://wa.me/919627370088"
+class="whatsapp"
+target="_blank">
+
+<i class="fab fa-whatsapp"></i>
+
+</a>
+<!-- Back To Top -->
+
+<button id="topBtn">
+
+    <i class="fas fa-arrow-up"></i>
+
+</button>
+<!-- ==========================
+        TOAST
+========================== -->
+
+<div id="toast">
+
+    <i class="fas fa-circle-check"></i>
+
+    <div>
+
+        <h4>Added to Cart</h4>
+
+        <p id="toast-text">Product Added Successfully</p>
+
+    </div>
+
+</div>
+<!-- ==========================
+     PRODUCT MODAL
+========================== -->
+
+<div class="product-modal" id="productModal">
+
+    <div class="modal-content">
+
+        <span class="close-modal">&times;</span>
+
+        <img id="modalImage" src="" alt="">
+
+        <h2 id="modalTitle"></h2>
+
+        <div class="modal-stars">
+            ⭐⭐⭐⭐⭐
+        </div>
+
+        <h3 id="modalPrice"></h3>
+
+        <p id="modalDescription"></p>
+
+        <div class="modal-buttons">
+
+            <button id="modalCart">
+                Add To Cart
+            </button>
+
+            <button id="modalBuy">
+                Buy Now
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+<script src="assets/js/app.js"></script>
+</body>
+
+</html>
